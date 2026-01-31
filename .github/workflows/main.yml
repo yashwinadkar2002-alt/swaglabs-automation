@@ -21,4 +21,5 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Selenium Tests
+        working-directory: automation
         run: mvn test
